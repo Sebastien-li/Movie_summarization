@@ -1,0 +1,13 @@
+>>> dict_random_score
+{'Arbitrage': 50.18100000000003, 'The_Breakfast_Club': 13.335, 'Slumdog_Millionaire': 463.7585714285715, 'Die_Hard': 70.48363636363635, 'Juno': 54.72700000000002, 'Moon': 136.2988888888889, 'One_Eight_Seven': 142.46777777777777, 'Panic_Room': 191.09333333333336, 'Soldier': 1068.87, 'The_Back-up_Plan': 110.21666666666667}
+
+>>> dict_score
+{'Arbitrage': 35.0, 'The_Breakfast_Club': 1.5, 'Slumdog_Millionaire': 145.14285714285714, 'Die_Hard': 15.636363636363637, 'Juno': 70.6, 'Moon': 98.22222222222223, 'One_Eight_Seven': 18.555555555555557, 'Panic_Room': 126.66666666666667, 'Soldier': 75.0, 'The_Back-up_Plan': 46.77777777777778}
+
+
+#consecutive
+>>> dict_random_score
+{'Arbitrage': 63.66300000000002, 'The_Breakfast_Club': 17.74666666666667, 'Slumdog_Millionaire': 520.9414285714286, 'Die_Hard': 63.225454545454575, 'Juno': 55.294, 'Moon': 149.28111111111107, 'One_Eight_Seven': 134.61444444444447, 'Panic_Room': 156.83999999999995, 'Soldier': 1446.3180000000004, 'The_Back-up_Plan': 124.55666666666666}
+
+>>> dict_score 
+{'Arbitrage': 102.2, 'The_Breakfast_Club': 42.166666666666664, 'Slumdog_Millionaire': 191.71428571428572, 'Die_Hard': 41.63636363636363, 'Juno': 183.5, 'Moon': 200.0, 'One_Eight_Seven': 1006.1111111111111, 'Panic_Room': 178.33333333333334, 'Soldier': 5709.2, 'The_Back-up_Plan': 182.0}

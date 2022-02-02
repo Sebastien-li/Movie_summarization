@@ -1,0 +1,59 @@
+Mood	Feel Good
+Mood	Captivating
+Mood	Uplifting
+Mood	Touching
+Mood	Clever
+Mood	Emotional
+Mood	Rough
+Mood	Stylized
+Mood	Exciting
+Mood	Sentimental
+Plot	Orphan
+Plot	Underdog
+Plot	Contests and Competitions
+Plot	Siblings Relations
+Plot	True Love
+Plot	Destiny
+Plot	TV Show
+Plot	Coming of Age
+Plot	Against the Odds
+Plot	Hopes
+Plot	Society
+Plot	Youth
+Plot	Young Heroes
+Plot	Obsessive Quest
+Plot	Human Spirit
+Plot	Unfulfilled Love
+Plot	Down on Your Luck
+Plot	False Accusation
+Plot	Urban Ghetto Life
+Plot	Ambition
+Plot	Crimes
+Plot	Dishonesty
+Plot	Escapades
+Plot	Love and Romance
+Plot	Media
+Plot	Family Relations
+Plot	Life is a Bitch
+Genres	Drama
+Genres	Independent
+Time/Period	Contemporary
+Time/Period	90s
+Time/Period	20th Century
+Time/Period	21st Century
+Place	Asia
+Place	India
+Place	Urban Ghetto
+Audience	Date Night
+Praise	Award Winner
+Praise	Blockbuster
+Praise	Critically Acclaimed
+Praise	Oscar Winner
+Praise	Golden Globe Winner
+Praise	Prestigious Awards
+Style	Epic
+Based on	Based on Book
+Attitudes	Serious
+Attitudes	Realistic
+Score	Indian
+Flag	Violent Content

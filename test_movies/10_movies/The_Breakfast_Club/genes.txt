@@ -1,0 +1,37 @@
+Mood	Clever
+Mood	Sincere
+Mood	Humorous
+Plot	Innocence Lost
+Plot	Introspection
+Plot	Rebelliousness
+Plot	Friendship
+Plot	Teenage Love
+Plot	Adolescence Vs Adulthood
+Plot	High School Life
+Plot	Teenage Life
+Plot	Coming of Age
+Plot	Hopes
+Plot	Way of Life
+Plot	Love and Romance
+Plot	Mind and Soul
+Plot	Rebellion
+Plot	Youth
+Plot	Friends
+Plot	Teachers and Students
+Plot	Misfit
+Plot	Power Relations
+Genres	Drama
+Time/Period	20th Century
+Time/Period	80s
+Place	High School
+Audience	Date Night
+Audience	Teens
+Praise	Critically Acclaimed
+Praise	Essential
+Praise	Modern Classic
+Style	All Star Cast
+Style	Ensemble Cast
+Style	Talky
+Attitudes	Semi Serious
+Attitudes	Realistic
+Score	Pop

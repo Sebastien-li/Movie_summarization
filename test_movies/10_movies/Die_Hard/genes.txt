@@ -1,0 +1,40 @@
+Mood	Rough
+Mood	Exciting
+Mood	Clever
+Mood	Suspenseful
+Plot	Master Criminal
+Plot	One Man Army
+Plot	Tough Law Enforcer
+Plot	Save the Day
+Plot	Heist
+Plot	Confined
+Plot	Crimes
+Plot	Danger
+Plot	Deadly
+Plot	Heroes
+Plot	Rivalry
+Plot	Hostages
+Plot	Race Against Time
+Plot	Rescue
+Plot	Chases and Races
+Plot	Law Enforcement
+Genres	Action
+Genres	Thriller
+Time/Period	20th Century
+Time/Period	80s
+Place	Los Angeles
+Place	USA
+Place	Skyscraper
+Audience	Boys' Night
+Praise	Award Winner
+Praise	Blockbuster
+Praise	Critically Acclaimed
+Praise	Essential
+Praise	Modern Classic
+Style	Hollywood Tone
+Based on	Based on Book
+Attitudes	Serious
+Attitudes	Realistic
+Attitudes	Fast
+Flag	Profanity
+Flag	Violent Content

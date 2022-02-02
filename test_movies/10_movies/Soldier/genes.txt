@@ -1,0 +1,26 @@
+Mood	Rough
+Mood	Suspenseful
+Mood	Exciting
+Plot	Master Warrior
+Plot	One Man Army
+Plot	Soldier
+Plot	Rescue
+Plot	Survival
+Plot	Heroic Mission
+Plot	Battles
+Plot	Tough Heroes
+Plot	Danger
+Plot	Escapades
+Plot	Heroes
+Plot	Military
+Plot	Rivalry
+Plot	Space and Aliens
+Plot	Space Travel
+Plot	Imaginary
+Genres	Action
+Genres	Sci-Fi
+Time/Period	Future
+Audience	Boys' Night
+Style	Futuristic
+Attitudes	Serious
+Attitudes	Fantastic

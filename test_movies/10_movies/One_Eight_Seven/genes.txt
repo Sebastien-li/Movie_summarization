@@ -1,0 +1,26 @@
+Mood	Disturbing
+Mood	Gloomy
+Mood	Rough
+Plot	Hardcase Students
+Plot	Juvenile Delinquency
+Plot	Teachers and Students
+Plot	High School Life
+Plot	Life is a Bitch
+Plot	Society
+Plot	Youth
+Plot	Power Relations
+Plot	Urban Ghetto Life
+Plot	Way of Life
+Genres	Drama
+Time/Period	20th Century
+Time/Period	90s
+Place	Los Angeles
+Place	High School
+Place	Urban
+Place	USA
+Attitudes	Serious
+Attitudes	Realistic
+Flag	Brief Nudity
+Flag	Drugs/Alcohol
+Flag	Profanity
+Flag	Violent Content

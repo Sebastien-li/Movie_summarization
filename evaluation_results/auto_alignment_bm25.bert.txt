@@ -1,0 +1,114 @@
+{'anastasia': 0.36127033307513545, 'cars': 0.2782614716216918, 'shrek': 0.31968254952413433, 'south': 0.2120894479385046, 'swordfish': 0.16125907813316664, 'butterfly': 0.15080592843954288, 'silence': 0.3158298198543502, 'walle': 0.2718202748901136, 'pulp': 0.30753867446871874, 'cast': 0.12122347491399577}
+micro avg kappa:  0.253
+macro avg kappa:  0.250
+
+anastasia
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00      3498
+       align       1.00      0.22      0.36        36
+
+    accuracy                           0.99      3534
+   macro avg       1.00      0.61      0.68      3534
+weighted avg       0.99      0.99      0.99      3534
+
+cars
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      0.99      4019
+       align       1.00      0.16      0.28        49
+
+    accuracy                           0.99      4068
+   macro avg       0.99      0.58      0.64      4068
+weighted avg       0.99      0.99      0.99      4068
+
+shrek
+              precision    recall  f1-score   support
+
+   non-align       0.98      1.00      0.99      1289
+       align       1.00      0.20      0.33        41
+
+    accuracy                           0.98      1330
+   macro avg       0.99      0.60      0.66      1330
+weighted avg       0.98      0.98      0.97      1330
+
+south
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00      4872
+       align       0.75      0.12      0.21        48
+
+    accuracy                           0.99      4920
+   macro avg       0.87      0.56      0.60      4920
+weighted avg       0.99      0.99      0.99      4920
+
+swordfish
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00      5556
+       align       0.50      0.10      0.16        41
+
+    accuracy                           0.99      5597
+   macro avg       0.75      0.55      0.58      5597
+weighted avg       0.99      0.99      0.99      5597
+
+butterfly
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00      3076
+       align       0.25      0.11      0.15        18
+
+    accuracy                           0.99      3094
+   macro avg       0.62      0.55      0.58      3094
+weighted avg       0.99      0.99      0.99      3094
+
+silence
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00      3772
+       align       0.88      0.19      0.32        36
+
+    accuracy                           0.99      3808
+   macro avg       0.93      0.60      0.66      3808
+weighted avg       0.99      0.99      0.99      3808
+
+walle
+              precision    recall  f1-score   support
+
+   non-align       0.98      1.00      0.99      2435
+       align       1.00      0.16      0.28        50
+
+    accuracy                           0.98      2485
+   macro avg       0.99      0.58      0.63      2485
+weighted avg       0.98      0.98      0.98      2485
+
+pulp
+              precision    recall  f1-score   support
+
+   non-align       0.99      1.00      0.99      2513
+       align       0.88      0.19      0.31        37
+
+    accuracy                           0.99      2550
+   macro avg       0.93      0.59      0.65      2550
+weighted avg       0.99      0.99      0.98      2550
+
+cast
+              precision    recall  f1-score   support
+
+   non-align       1.00      1.00      1.00      9559
+       align       0.38      0.07      0.12        41
+
+    accuracy                           1.00      9600
+   macro avg       0.69      0.54      0.56      9600
+weighted avg       0.99      1.00      0.99      9600
+
+micro avg (p r f1):               precision    recall  f1-score   support
+
+   non-align       0.99      1.00      1.00     40589
+       align       0.76      0.15      0.26       397
+
+    accuracy                           0.99     40986
+   macro avg       0.88      0.58      0.63     40986
+weighted avg       0.99      0.99      0.99     40986
+
+macro avg (p r f1): 0.876 0.576 0.624

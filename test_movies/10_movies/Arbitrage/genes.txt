@@ -1,0 +1,24 @@
+Mood	Captivating
+Mood	Clever
+Mood	Suspenseful
+Mood	Tense
+Plot	Downfall
+Plot	Corporate Crimes
+Plot	Dishonesty
+Plot	Moral Dilemma
+Plot	Infidelity
+Plot	Cons and Scams
+Plot	Police Investigation
+Plot	Crimes
+Plot	Mind and Soul
+Genres	Independent
+Genres	Drama
+Genres	Thriller
+Time/Period	Contemporary
+Time/Period	21st Century
+Place	New York
+Place	USA
+Praise	Critically Acclaimed
+Style	Twists and Turns
+Attitudes	Serious
+Attitudes	Realistic

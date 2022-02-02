@@ -1,0 +1,31 @@
+Mood	Stylized
+Mood	Suspenseful
+Mood	Tense
+Mood	Rough
+Plot	Single Parent
+Plot	Crime Gone Awry
+Plot	Domestic Disturbance
+Plot	Mind Game
+Plot	Child in Danger
+Plot	Confined
+Plot	Crimes
+Plot	Danger
+Plot	Mind and Soul
+Plot	Rivalry
+Plot	Family Problems
+Plot	Family Relations
+Plot	Disorder
+Plot	Isolation
+Genres	Thriller
+Time/Period	Contemporary
+Time/Period	21st Century
+Place	New York
+Place	Indoors
+Place	USA
+Audience	Boys' Night
+Praise	Blockbuster
+Praise	Critically Acclaimed
+Style	Hollywood Tone
+Attitudes	Serious
+Attitudes	Realistic
+Flag	Mild Violent Content

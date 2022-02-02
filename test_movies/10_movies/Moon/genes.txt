@@ -1,0 +1,33 @@
+Mood	Atmospheric
+Mood	Bleak
+Mood	Contemplative
+Mood	Stylized
+Mood	Thought Provoking
+Mood	Mind Bending
+Mood	Tense
+Plot	Isolation
+Plot	Psychological
+Plot	Confined
+Plot	Hopes
+Plot	Mind and Soul
+Plot	Space and Aliens
+Plot	Androids and Robots
+Plot	Imaginary
+Genres	Sci-Fi
+Genres	Independent
+Genres	Drama
+Genres	Mystery
+Time/Period	21st Century
+Time/Period	Future
+Place	Outer Space
+Place	Space Station
+Place	Moon
+Praise	Award Winner
+Praise	Critically Acclaimed
+Praise	Prestigious Awards
+Style	Twists and Turns
+Style	Futuristic
+Style	Surreal
+Attitudes	Serious
+Attitudes	Semi Fantastic
+Attitudes	Slow

@@ -1,0 +1,22 @@
+Mood	Feel Good
+Mood	Humorous
+Mood	Sentimental
+Mood	Touching
+Plot	Pregnancy
+Plot	Fall in Love
+Plot	Love and Romance
+Plot	Couples
+Plot	Couple Relations
+Plot	Looking for Love
+Plot	Singleness
+Plot	Way of Life
+Genres	Comedy
+Genres	Romance
+Time/Period	Contemporary
+Time/Period	21st Century
+Place	USA
+Audience	Date Night
+Audience	Girls' Night
+Style	Hollywood Tone
+Attitudes	Semi Serious
+Attitudes	Realistic

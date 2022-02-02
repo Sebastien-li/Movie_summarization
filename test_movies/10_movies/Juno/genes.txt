@@ -1,0 +1,41 @@
+Mood	Feel Good
+Mood	Humorous
+Mood	Witty
+Mood	Sentimental
+Mood	Clever
+Mood	Offbeat
+Plot	Pregnancy
+Plot	Teenage Life
+Plot	Youth
+Plot	Parents and Children
+Plot	Adoption
+Plot	Eccentric Family
+Plot	Small Town Life
+Plot	Coming of Age
+Plot	Love and Romance
+Plot	Mind and Soul
+Plot	Couples
+Plot	Family Relations
+Plot	Social Relations
+Genres	Comedy
+Genres	Independent
+Genres	Drama
+Time/Period	Contemporary
+Time/Period	21st Century
+Place	Minnesota
+Place	USA
+Place	Small Town
+Audience	Date Night
+Praise	Blockbuster
+Praise	Critically Acclaimed
+Praise	Oscar Winner
+Praise	Prestigious Awards
+Humor	Irreverent Humor
+Style	Voice Over
+Style	Strong Female Presence
+Attitudes	Semi Serious
+Attitudes	Realistic
+Score	Folk
+Score	Alternative
+Score	Rock
+Flag	Profanity
