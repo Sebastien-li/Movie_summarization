@@ -127,9 +127,9 @@ if __name__ == '__main__':
 
         tl=[]
         for i,x in enumerate(alig_list):
-            if x>=2 and x-1!=alig_list[i-1]: tl.append(x-1)
+            #if x>=2 and x-1!=alig_list[i-1]: tl.append(x-1)
             tl.append(x)
-            if x+1<=max(tripod_list) and i<len(alig_list)-1 and x+1!=alig_list[i+1]: tl.append(x+1)
+            #if x+1<=max(tripod_list) and i<len(alig_list)-1 and x+1!=alig_list[i+1]: tl.append(x+1)
         alig_list=tl
 
         print("\n{}\nThe scenes selected by Alignarr are :{}\nThe scenes selected by TRIPOD are :{}\nThe intersection is : {}".format(movie_name,alig_list,tripod_list,list(set(alig_list)&set(tripod_list))))
