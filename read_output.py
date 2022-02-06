@@ -5,8 +5,6 @@ import random
 import glob
 import re
 
-os.chdir("C:\\Users\\Sébastien\\Documents\\AligNarr-master")
-
 movie_list = ['arbitrage', 'die', 'juno', 'moon', 'one', 'panic', 'breakfast', 'slumdog', 'soldier', 'backup']
 
 movie_code = {'arbitrage': 'Arbitrage',
@@ -22,7 +20,7 @@ movie_code = {'arbitrage': 'Arbitrage',
                 }
 movie_code_invert = {v: k for k, v in movie_code.items()}
 
-def segment_screenplay(m,script_file, new_script_file_align, new_script_file_tripod):
+def segment_screenplay(m,script_file, new_script_file_align, new_script_file_tripod,new_script_file_random):
     """
     Find the manual segmentation of the screenplay into scenes and re-write the
     script file with seperation markers. Each scene is separated with a sequence
@@ -83,21 +81,43 @@ def segment_screenplay(m,script_file, new_script_file_align, new_script_file_tri
             f1.write('='*40)
             f1.write('\n')
 
+    for i in sorted(random.sample(range(1,max(tripod[movie_name])),len(tripod[movie_name]))):
+        scene=scenes[i]
+        with open(new_script_file_random, 'a+',encoding="utf8") as f1:
+            f1.write('='*20)
+            f1.write(str(i))
+            f1.write('='*20)
+            f1.write('\n')
+            f1.write(scene)
+            f1.write('\n')
+            f1.write('='*40)
+            f1.write('\n')
+
     return
 
 def difference_score(l1,l2):
     score=0
     for i in l1:
         score+=(i-min(l2,key=lambda j:abs(j-i)))**2
-    score/=len(l1)
+    score/=len(l1)*len(l1)
+    return score
+
+def f1(l1,l2):
+    from sklearn.metrics import f1_score
+    n=max(max(l1),max(l2))
+    array1=[0]*n
+    array2=[0]*n
+    for i in l1: array1[i-1]=1
+    for i in l2: array2[i-1]=1
+    score=f1_score(array1,array2)
     return score
 
 if __name__ == '__main__':
 
     l={}
-    for filename in os.listdir("C:\\Users\\Sébastien\\Documents\\AligNarr-master\\output_files\\auto_alignment_bm25.w2v.sts"):
+    for filename in os.listdir("output_files\\auto_alignment_bm25.w2v.sts"):
         l[filename]=[]
-        with open(os.path.join("C:\\Users\\Sébastien\\Documents\\AligNarr-master\\output_files\\auto_alignment_bm25.w2v.sts", filename), 'r') as f:
+        with open(os.path.join("output_files\\auto_alignment_bm25.w2v.sts", filename), 'r') as f:
             data=json.load(f)
             for d in data["summary"].values():
                 for j in d:
@@ -117,7 +137,9 @@ if __name__ == '__main__':
     tripod["One_Eight_Seven"]=[30, 31,39,86, 87, 88, 89,142,142]
 
     dict_score={}
+    dict_f1={}
     dict_random_score={}
+    dict_random_f1={}
 
     for code in l:
         movie_name=movie_code[code[:-5]]
@@ -134,24 +156,38 @@ if __name__ == '__main__':
 
         print("\n{}\nThe scenes selected by Alignarr are :{}\nThe scenes selected by TRIPOD are :{}\nThe intersection is : {}".format(movie_name,alig_list,tripod_list,list(set(alig_list)&set(tripod_list))))
         score=difference_score(tripod_list,alig_list)
+        f1score=f1(tripod_list,alig_list)
         print("The difference score between the alignarr list and the tripod list is:",score)
+        print("The F1 score is:",f1score)
         dict_score[movie_name]=score
+        dict_f1[movie_name]=f1score
         rand_score=0
+        rand_f1=0
         for i in range(100):
             randlist=random.sample(range(1,max(max(tripod_list),max(alig_list))),len(tripod_list))
             rand_score+=difference_score(tripod_list,randlist)/100
+            rand_f1+=f1(tripod_list,randlist)/100
         print("Over 100 random samples, the difference score between the random list and the tripod list is:",rand_score)
+        print("Over 100 random samples, the f1 score between the random list and the tripod list is:",rand_f1)
         dict_random_score[movie_name]=rand_score
+        dict_random_f1[movie_name]=rand_f1
 
 
 
 
-"""
     screenplays_folder = 'test_movies/10_movies'
     new_segmented_screenplays = 'Segmented_screenplays'
+    chosen_path= 'selected_scenes'
 
     if not os.path.exists(new_segmented_screenplays):
         os.makedirs(new_segmented_screenplays)
+
+    for f in os.listdir(new_segmented_screenplays):
+        os.remove(os.path.join(new_segmented_screenplays, f))
+
+    for f in os.listdir(chosen_path):
+        os.remove(os.path.join(chosen_path, f))
+
 
     movie_folder_list = [x[0] for x in os.walk(screenplays_folder)]
     movie_folder_list = glob.glob(screenplays_folder + "/*/")
@@ -160,13 +196,16 @@ if __name__ == '__main__':
         movie_name = movie.split('\\')[-2]
         print(movie_name)
         script_file = os.path.join(movie, 'script_clean.txt')
-        new_script_file_align = os.path.join(new_segmented_screenplays,
-                                       movie_name + '_align.txt')
+        new_script_file_align = os.path.join(chosen_path,
+                                       movie_name + '.txt')
 
         new_script_file_tripod = os.path.join(new_segmented_screenplays,
                                        movie_name + '_tripod.txt')
 
-        segment_screenplay(movie_name,script_file, new_script_file_align,new_script_file_tripod)
+        new_script_file_random = os.path.join(new_segmented_screenplays,
+                                       movie_name + '_random.txt')
 
-"""
+        segment_screenplay(movie_name,script_file, new_script_file_align,new_script_file_tripod,new_script_file_random)
+
+
 print()
