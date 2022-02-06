@@ -9,6 +9,15 @@ The dataset is the [Scriptbase corpus](https://github.com/EdinburghNLP/scriptbas
 
 We have the dataset in the folder `test_movies/10_movies`, coming from Scriptbase.
 
+### Requirements
+This project requires Python 3.7
+
+Download [GoogleNews-vectors-negative300.bin](https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz) and uncompress.
+
+Install the requirements using
+```sh
+py -3.7 -m pip install -r env/requirements.txt
+```
 The summaries are generated with
 ```sh
 py -3.7 alignarr.py
@@ -21,3 +30,4 @@ The ROUGE score is displayed with
 ```sh
 py rouge.py
 ```
+
