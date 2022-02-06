@@ -31,3 +31,12 @@ The ROUGE score is displayed with
 py rouge.py
 ```
 
+#### Author
+Sébastien LI
+
+#### Supervisors
+Alison REBOUD
+
+Raphaël TRONCY
+
+
